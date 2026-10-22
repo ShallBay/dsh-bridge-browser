@@ -1,6 +1,6 @@
 {
   "name": "@shallbay/dsh-bridge-browser",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "dsh browser bridge: token-authenticated WebSocket carrier plus text-only browser_* tools that drive the user's own Chrome through the bundled extension. Repack of @yuxianglin/dsh-bridge-browser that installs from npm and also runs on the DSH Desktop 2.x profile.",
   "keywords": [
     "dsh",
@@ -11,6 +11,14 @@
   ],
   "author": "Yuxiang Lin (upstream); repacked by this scope's publisher",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShallBay/dsh-bridge-browser.git"
+  },
+  "homepage": "https://github.com/ShallBay/dsh-bridge-browser#readme",
+  "bugs": {
+    "url": "https://github.com/ShallBay/dsh-bridge-browser/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
